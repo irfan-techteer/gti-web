@@ -1,0 +1,84 @@
+.gti-footer-banner{
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    background-color: #3a4d5e;
+    color: #fff;
+    padding: 3rem 0rem 0rem; 
+}
+.gti-ftr-ban{}
+.gti-ftr-ban h2{font-size: 24px;font-weight: bold;}
+.gti-ftr-ban p{line-height: 30px;    margin-top: 2rem;}
+.gti-ftr-list-ban{padding: 0;}
+.gti-ftr-list-ban li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.gti-ftr-list-ban li a{
+    color: #fff;
+    background-color: #233340;
+    font-size: 15px;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    text-decoration: none;
+    vertical-align: middle;
+    box-shadow: 2px 2px 10px #30404e;
+}
+.gti-ftr-shp-list-ban{margin-top: 1rem;}
+.gti-ftr-shp-ban h5{font-weight: bold;}
+.gti-ftr-shp-ban h5:after{
+    content: "";
+    border-bottom: solid 2px;
+    display: block;
+    width: 30%;
+    padding-top: 15px;
+    color: #A9CC6E;
+
+}
+.gti-ftr-shp-jst-ban{display: grid;justify-content: center;align-items: center;}
+.gti-ftr-shp-list-ban {padding: 0}
+.gti-ftr-shp-list-ban li{list-style: none;line-height: 35px;}
+.gti-ftr-shp-list-ban li:before{
+    content: "\f054";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    padding-right: 6px;
+    vertical-align: bottom;
+}
+.gti-ftr-shp-list-ban li a{ color: #ffff;text-decoration: none;}
+.gti-ftr-shp-icn-ban{padding-left: 5px;}
+.gti-ftr-shp-icn-ban i{color:#A9CC6E ;padding-right: 10px;}
+.gti-footer-cpri-inpt{}
+.gti-footer-cpri-inpt form input{
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    background-color: transparent;
+    border: transparent;
+
+}
+.gti-footer-cpri-inpt{background-color: #233340;
+    padding:8px;}
+.gti-footer-cpri-inpt form input:focus{box-shadow: none;}
+.gti-footer-cpri-inpt form button{
+    vertical-align: baseline;
+    float: right;
+    background-color: #a9cc6e;
+    color: #3a4d5e;
+    font-weight: 600;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 6px 25px;
+}
+.gti-footer-cpri-ban{
+    border-top: solid 1px #7b7f83;
+    margin-top: 1rem;
+    padding: 1.5rem 0rem;
+}
