@@ -1,0 +1,14 @@
+<div class="container">
+
+  
+    <div class="row my-5">
+        <div class="card m-3 p-0" style="width: 18rem;" *ngFor="let item of UserDetails">
+            <img src="{{item.img}}" class="card-img-top" alt="image not found">
+            <div class="card-body">
+              <h5 class="card-title fw-bold" >{{item.title}}</h5>
+              <p class="card-text" >{{item.dec}}</p>
+              <a href="#" class="btn btn-primary" >{{item.btn}}</a>
+            </div>
+        </div>
+    </div>
+</div>
