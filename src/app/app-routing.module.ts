@@ -11,9 +11,11 @@ import { ToolsComponent } from './component/tools/tools.component';
 import { GTIComponent } from './component/gti/gti.component';
 import { FollowUsComponent } from './component/follow-us/follow-us.component';
 import { NotificationComponent } from './component/notification/notification.component';
+import { LoginComponent } from './component/login/login.component';
+import { ProductComponent } from './component/product/product.component';
 
 const routes: Routes = [
-  { path: '', component: TodosComponent},
+  { path: '', redirectTo: 'login', pathMatch: 'full'},
   { path: 'news', component: NewsComponent},
   { path: 'get-best-offer', component: GetBestOfferComponent},
   { path: 'defaulter', component: DefaulterComponent},
@@ -23,6 +25,9 @@ const routes: Routes = [
   { path: 'gti', component: GTIComponent},
   { path: 'follow-us', component: FollowUsComponent},
   { path: 'notification', component: NotificationComponent},
+  { path: 'login', component: LoginComponent},
+  { path: 'product', component: ProductComponent},
+  { path: '**', component: LoginComponent},
 ];
 
 @NgModule({

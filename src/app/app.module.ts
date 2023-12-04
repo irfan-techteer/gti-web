@@ -13,6 +13,8 @@ import { AddTodoComponent } from './component/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './component/about/about.component';
 import { NewsComponent } from './component/news/news.component';
+import { LoginComponent } from './component/login/login.component';
+import { ProductComponent } from './component/product/product.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { NewsComponent } from './component/news/news.component';
     TodoItemComponent,
     AddTodoComponent,
     AboutComponent,
-    NewsComponent
+    NewsComponent,
+    LoginComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
