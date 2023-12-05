@@ -1,0 +1,24 @@
+.error{color:#fff;font-size: 16px;font-weight: 700;}
+.dt-bg-frm{background-color: #3A4D5E;width: 40%;    padding: 4rem 4rem 5rem;}
+.dt-bg-frm img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dt-bg-frm button{
+    background-color: #a7bf73;
+    border-color: #a7bf73;
+    color: #3a4d5e;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 8px 50px;
+    letter-spacing: 2px;   
+}
+.dt-bg-frm-cnt{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

@@ -16,6 +16,7 @@ import { ProductComponent } from './component/product/product.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full'},
+  { path: 'todos', component: TodosComponent},
   { path: 'news', component: NewsComponent},
   { path: 'get-best-offer', component: GetBestOfferComponent},
   { path: 'defaulter', component: DefaulterComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'product', component: ProductComponent},
   { path: '**', component: LoginComponent},
+
 ];
 
 @NgModule({

@@ -10,11 +10,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TodosComponent } from './component/todos/todos.component';
 import { TodoItemComponent } from './component/todo-item/todo-item.component';
 import { AddTodoComponent } from './component/add-todo/add-todo.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgControl, ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './component/about/about.component';
 import { NewsComponent } from './component/news/news.component';
 import { LoginComponent } from './component/login/login.component';
 import { ProductComponent } from './component/product/product.component';
+import { AuthService } from './services/auth.service';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -27,14 +29,17 @@ import { ProductComponent } from './component/product/product.component';
     AboutComponent,
     NewsComponent,
     LoginComponent,
-    ProductComponent
+    ProductComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    FormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    // AuthService
   ],
   providers: [],
   bootstrap: [AppComponent]
